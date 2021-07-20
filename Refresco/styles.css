@@ -1,0 +1,54 @@
+body {
+
+    background-color: #151515;
+    color: white;
+}
+
+div {
+    margin: 12px;
+ height: 150px;
+ width: 150px;
+ 
+}
+
+img {
+    border: 2px solid #000;
+    border-radius: 10%;
+    height: 150px;
+ width: 150px;
+}
+
+h1 {
+    text-shadow: 0.2em 0.1em #800080;
+    color: #ffff00;
+    text-align: center;
+}
+
+#logo {
+width: 160px;
+height: 110px;
+}
+
+#perfis {
+    display: flex;
+    height: 250px;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+button {
+    background: #209915;
+    width: 20%;
+    margin: 0 40%;
+    font-size: 25px;
+    border: #555;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+button:hover {
+    background: #19ee05;
+}
+
